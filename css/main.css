@@ -1,0 +1,157 @@
+#header {
+	padding-top: 20px;
+	background-color: rgba(252, 202, 153, 1);
+}
+
+
+#name, #role {
+	font-family: 'Inconsolata' ;
+	padding-right: 30px;
+}
+
+
+#name {
+	color: black;
+	display: block;
+}
+
+
+#role {
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+hr {
+	margin-top: 15px;
+	height: 5px;
+	background-color: black;
+}
+
+
+#skillsH3, .orange-text {
+	color: #41341B;
+}
+
+
+.welcome-message {
+	padding-left: 50px;
+	float: center;
+	color: #D71010;
+	font-family: 'Inconsolata' ;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+#skills {
+	padding-top: 0px;
+}
+
+
+#nav-bar {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  
+  background-color: #ECE4E4;
+  
+  overflow: hidden;
+  z-index: 100;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+#nav-menu {
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-around;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+#navemenu li {
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: white;
+  padding: 0;
+  border: none;
+}
+.sum-entry {
+  padding-bottom: 10px;
+}
+a.nav-item {
+  color: black;
+  height: auto;
+  padding: 10px 20px;
+  margin-top: 0px;
+  display: block;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  white-space: nowrap;
+  font-weight: 600;
+}
+a.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+a.nav-item:focus {
+  background-color: rgba(255, 255, 255, 0.3);
+  outline: 0;
+}
+a.nav-item:active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.gray {
+	background-color: #ECE4E4;
+}
+
+
+h2 {
+	padding-top: 30px;
+}
+
+
+.work-entry, .project-entry, .education-entry, .online-entry {
+	padding-bottom: 30px;
+}
+
+
+a:hover {
+  color: blue;
+  }
+  
+  
+.section-hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 2px;
+}
+
+
+#letsConnect h2 {
+	padding-top: 10px;
+	margin-top: 20px;
+}
+
+
+.white-text {
+	color: rgba(242, 88, 88, 1);
+}
+
+
+.orange {
+	background-color: rgba(185, 57, 57, 1);
+}
+
+
+#footerContacts {
+	background-color: rgba(252, 202, 153, 1);
+}
