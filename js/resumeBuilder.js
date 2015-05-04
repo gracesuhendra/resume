@@ -147,7 +147,7 @@ var projects = {
     },
     {
       "title": "Grace Ng's Resume",
-	    "url": "http://gracesuhendra.github.io/frontend-nanodegree-resume/",
+	    "url": "http://gracesuhendra.github.io/resume/",
       "dates": "2014",
       "description": "Develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template",
       "images": []
