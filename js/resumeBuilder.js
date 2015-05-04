@@ -200,7 +200,7 @@ var education = {
   "schools": [
     {
       "name": "Bandung Institute Of Technology",
-	  "url": "http://www.itb.ac.id/",
+	  "url": "images/itb_transcript.jpg",
       "degree": "Bachelor of Science",
       "dates": "2009 - 2013",
       "location": "Bandung, Indonesia",
