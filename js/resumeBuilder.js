@@ -160,6 +160,13 @@ var projects = {
       "images": []
     },
     {
+      "title": "Social Network Structure using Python",
+      "url": "http://github.com/gracesuhendra/Udacity/tree/master/Intro-to-CS-course",
+      "dates": "2014",
+      "description": "Build a structure for social network using dictionary data structure in Python",
+      "images": []
+    },
+    {
       "title": "Ice Cream",
 	    "url": "http://gracesuhendra.github.io/mockup/",
       "dates": "2014",
@@ -178,13 +185,6 @@ var projects = {
 	    "url": "http://github.com/gracesuhendra/drFreeze",
       "dates": "2014",
       "description": "Build a website for ice cream cafe using HTML and CSS from scratch",
-      "images": []
-    },
-	{
-      "title": "Social Network Structure using Python",
-	    "url": "http://github.com/gracesuhendra/Udacity/tree/master/Intro-to-CS-course",
-      "dates": "2014",
-      "description": "Build a structure for social network using dictionary data structure in Python",
       "images": []
     }
   ]
