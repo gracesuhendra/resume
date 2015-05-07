@@ -11,7 +11,7 @@ var bio = {
 	"location": "Jakarta, Indonesia"
   },
   "skills": [
-    "Mathematics", "Statistics", "HTML", "CSS", "JavaScript", "Python", "Java", "C++", "C#", "VB.Net", "SQL"
+    "Mathematical Modeling", "Statistics", "Database Design", "Web Development", "Software Development"
   ],
   "bioPic": "images/me.jpg"
 }
@@ -55,7 +55,7 @@ bio.display = function() {
   }
 }
 
-var des = "I am a Mathematician who is interested in web development.<br><br>Lately, I help government and nonprofit organizations to develop their websites and share their mission to the world.<br/><br/>Everyday I always keep learning the newest technology and try to apply them in my works.";
+var des = "In 2009-2013, I studied Mathematics with focus on Mathematical Modeling and Statistics. I also did various projects and presentation about mathematical modeling.<br><br>After graduating from ITB, I stayed in US and helped government and nonprofit organizations develop their websites and share their mission to the world.<br/><br/>Everyday I always keep learning the newest technology and try to apply them in my works.";
 
 var summary = {
   "description": des,
@@ -124,6 +124,27 @@ work.display = function() {
 //create projects object
 var projects = {
   "portfolios": [
+    {
+      "title": "Empirical Modelling of The Critical Velocity of Running and Walking",
+      "url": "pdf/snips2013.pdf",
+      "dates": "2013",
+      "description": "With my Applied Mathematics and Physics professors, we made some experiments in the area of our campus, gathered data, and analyzed it to produce an empirical model for critical velocity, a velocity that differs walking and running. It has been observed that the critical velocity depends on the length of leg. I also presented this project in National Symposium on Innovation and Learning of Science (SNIPS) in 2013.",
+      "images": []
+    },
+    {
+      "title": "Mathematical Modelling on Brazilian Nut Effect (Granular Convection)",
+      "url": "pdf/bne.pdf",
+      "dates": "2012",
+      "description": "In my mathematical modeling class, me and my group studied the Brazilian Nut Effect, which is a phenomenon where granular material subjected to shaking or vibration will exhibit circulation patterns similar to types of fluid convection. The largest particles will end up on the surface of a granular material containing a mixture of variously sized objects; this derives from the example of a typical container of mixed nuts, where the largest will be Brazil nuts.",
+      "images": []
+    },
+    {
+      "title": "Explore, Summarize, and Discover Interesting Insights from Diamond and Facebook Datasets Using R",
+      "url": "",
+      "dates": "2014",
+      "description": "Perform EDA (Exploratory Data Analysis) to explore simulated Facebook user data and the diamonds data set. Creating a RMD file that uncovers the patterns, anomalies and relationships of the data set using R.",
+      "images": ["images/image1.png", "images/image2.png"]
+    },
     {
       "title": "Monroe County Energy Challenge",
       "url": "http://gracesuhendra.github.io/moco/",
@@ -217,6 +238,12 @@ var education = {
   ], 
   "onlineCourses": [
     {
+      "title": "Data Analysis with R",
+      "school": "Udacity",
+      "dates": 2014,
+      "URL": "https://www.udacity.com/course/data-analysis-with-r--ud651"
+    },
+    {
       "title": "Introduction to Computer Science",
       "school": "Udacity",
       "dates": 2014,
@@ -281,10 +308,6 @@ education.display = function() {
 		
     var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates);
     $(".online-entry:last").append(formattedOnlineDates);
-		
-    var formattedOnlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[course].URL);
-    formattedOnlineURL = formattedOnlineURL.replace("%url%", education.onlineCourses[course].URL);
-	$(".online-entry:last").append(formattedOnlineURL);
 
     $(".online-entry:last").append("<br><div><hr class='section-hr'></div>");
   }
