@@ -75,7 +75,7 @@ var work = {
       "title": "Head of Fund Raising",
       "location": "Bandung, Indonesia",
       "dates": "2011",
-      "description": "Responsible for raising fund for Mathematics Majors Graduation ceremony"
+      "description": "Responsible for raising fund for Mathematics Majors Graduation ceremony."
     },
     {
       "employer": "TIENS Group",
@@ -83,7 +83,7 @@ var work = {
       "title": "Sales Representative",
       "location": "Bandung, Indonesia",
       "dates": "2012 - 2013",
-      "description": "Sold and promoted TIENS' products"
+      "description": "Sold and promoted TIENS' products."
     },
     {
       "employer": "Student Leadership Academy (SLA)",
@@ -91,7 +91,16 @@ var work = {
       "title": "member",
       "location": "Ivy Tech Community College Bloomington, IN 47404",
       "dates": "2013",
-      "description": "Learned about leadership, professionalism, and public speaking"
+      "description": "Learned about leadership, professionalism, and public speaking."
+    },
+    {
+      "employer": "ITB United",
+      "url": "http://www.facebook.com/pages/ITB-United/105835599474792?sk=timeline",
+      "title": "Head of Marketing",
+      "location": "Bandung, Indonesia",
+      "dates": "2012",
+      "description": "I was responsible to market and sell ITB United's products. We did photoshoots and sell the products in various bazaar.",
+      "images": ["images/work1a.jpg", "images/work1b.jpg", "images/work1c.jpg"]
     }
   ]
 }
@@ -125,6 +134,55 @@ work.display = function() {
 var projects = {
   "portfolios": [
     {
+      "title": "Monroe County Energy Challenge",
+      "url": "http://gracesuhendra.github.io/moco/",
+      "dates": "2015",
+      "description": "Working with the local government's Representative to organize the content of a website that introduces the energy saving solution.",
+      "images": []
+    },
+    {
+      "title": "The Sanctuary at Browning Farms",
+      "url": "http://thesanctuaryatbrowningfarms.com/",
+      "dates": "2015",
+      "description": "Designing a website that introduces a nonprofit organization for pet adoption.",
+      "images": []
+    },
+    {
+      "title": "Explore, Summarize, and Discover Interesting Insights from Diamond and Facebook Datasets Using R.",
+      "url": "",
+      "dates": "2014",
+      "description": "Perform EDA (Exploratory Data Analysis) to explore simulated Facebook user data and the diamonds data set. Creating a RMD file that uncovers the patterns, anomalies and relationships of the data set using R.",
+      "images": ["images/image1.png", "images/image2.png"]
+    },
+    {
+      "title": "Social Network Structure using Python",
+      "url": "http://github.com/gracesuhendra/Udacity/tree/master/Intro-to-CS-course",
+      "dates": "2014",
+      "description": "Build a structure for social network using dictionary data structure in Python.",
+      "images": []
+    },
+    {
+      "title": "Ice Cream Web Design",
+      "url": "http://gracesuhendra.github.io/mockup/",
+      "dates": "2014",
+      "description": "Take a mockup design in PDF and build my customize design to that mockup using Bootstrap Framework and customized CSS.",
+      "images": []
+    },
+    {
+      "title": "Grace Ng's Resume",
+      "url": "http://gracesuhendra.github.io/resume/",
+      "dates": "2014",
+      "description": "Develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template.",
+      "images": []
+    },
+    {
+      "title": "Dr. Freeze",
+      "url": "http://github.com/gracesuhendra/drFreeze",
+      "dates": "2014",
+      "description": "Build a website for ice cream cafe using HTML and CSS from scratch.",
+      "images": []
+    },
+    {
       "title": "Empirical Modelling of The Critical Velocity of Running and Walking",
       "url": "pdf/snips2013.pdf",
       "dates": "2013",
@@ -139,54 +197,33 @@ var projects = {
       "images": []
     },
     {
-      "title": "Explore, Summarize, and Discover Interesting Insights from Diamond and Facebook Datasets Using R",
+      "title": "Binus University Bazaar",
       "url": "",
-      "dates": "2014",
-      "description": "Perform EDA (Exploratory Data Analysis) to explore simulated Facebook user data and the diamonds data set. Creating a RMD file that uncovers the patterns, anomalies and relationships of the data set using R.",
-      "images": ["images/image1.png", "images/image2.png"]
-    },
-    {
-      "title": "Monroe County Energy Challenge",
-      "url": "http://gracesuhendra.github.io/moco/",
-      "dates": "2015",
-      "description": "Working with the local government's Representative to organize the content of a website that introduces the energy saving solution.",
+      "dates": "2012",
+      "description": "I helped my cousin doing a small stand in Binus' bazaar. We sold okonomiyaki and various of clothes.",
       "images": []
     },
     {
-      "title": "The Sanctuary at Browning Farms",
-      "url": "http://thesanctuaryatbrowningfarms.com/",
-      "dates": "2015",
-      "description": "TDesigning a website that introduces a nonprofit organization for pet adoption.",
+      "title": "9gag T-shirts",
+      "url": "",
+      "dates": "2012",
+      "description": "In my third year of college, 9gag.com was very popular, so I designed and produced 9gag's T-shirts, and couple hundreds of T-shirts were sold out in few weeks.",
       "images": []
+    },   
+    {
+      "title": "Flawless Shop",
+      "url": "http://www.facebook.com/flawless.shop.75?fref=ts",
+      "dates": "2011",
+      "description": "I did a small online garage sell with my friend. We had so much fun doing the photoshoots.",
+      "images": ["images/project1a.jpg", "images/project1b.jpg", "images/project1c.jpg"]
     },
     {
-      "title": "Social Network Structure using Python",
-      "url": "http://github.com/gracesuhendra/Udacity/tree/master/Intro-to-CS-course",
-      "dates": "2014",
-      "description": "Build a structure for social network using dictionary data structure in Python",
-      "images": []
-    },
-    {
-      "title": "Ice Cream",
-	    "url": "http://gracesuhendra.github.io/mockup/",
-      "dates": "2014",
-      "description": "Take a mockup design in PDF and build my customize design to that mockup using Bootstrap Framework and customized CSS",
-      "images": []
-    },
-    {
-      "title": "Grace Ng's Resume",
-	    "url": "http://gracesuhendra.github.io/resume/",
-      "dates": "2014",
-      "description": "Develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template",
-      "images": []
-    },
-    {
-      "title": "Dr. Freeze",
-	    "url": "http://github.com/gracesuhendra/drFreeze",
-      "dates": "2014",
-      "description": "Build a website for ice cream cafe using HTML and CSS from scratch",
-      "images": []
-    }
+      "title": "Almighty Private",
+      "url": "",
+      "dates": "2011",
+      "description": "This is the small business that I ran with my friends. We're looking for students who can teach other students in ITB. It was so much fun.",
+      "images": ["images/project2a.jpg"]
+    }   
   ]
 }
 
@@ -231,7 +268,7 @@ var education = {
       "name": "Ivy Tech Community College",
 	  "url": "http://www.ivytech.edu/",
       "degree": "Associates of Applied Science",
-      "dates": "2013 - 2015 (expected)",      
+      "dates": "2013 - 2015",      
       "location": "Ivy Tech Community College Bloomington, IN 47404",
       "major": ["Computer Information System"]    
     }
