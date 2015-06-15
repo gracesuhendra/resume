@@ -55,7 +55,7 @@ bio.display = function() {
   }
 }
 
-var des = "In 2009-2013, I studied Mathematics with focus on Mathematical Modeling and Statistics. I also did various projects and presentation about mathematical modeling.<br><br>After graduating from ITB, I stayed in US and helped government and nonprofit organizations develop their websites and share their mission to the world.<br/><br/>Everyday I always keep learning the newest technology and try to apply them in my works.";
+var des = "In 2009-2013, I studied Mathematics in Bandung Institute of Technology (ITB) with focus on Mathematical Modeling and Statistics. I also did various projects and presentation about mathematical modeling.<br><br>After graduating from ITB, I stayed in US and helped government and nonprofit organizations in developing their websites and sharing their mission to the world.<br/><br/>Everyday I always keep learning the newest technology and try to apply them in my works.";
 
 var summary = {
   "description": des,
@@ -162,6 +162,13 @@ var projects = {
       "images": []
     },
     {
+      "title": "Search Engine using Python",
+      "url": "http://github.com/gracesuhendra/Udacity/tree/master/Intro-to-CS-course",
+      "dates": "2014",
+      "description": "Build a search engine by learning about and producing key search engine components including a crawler, an index and a page rank algorithm.",
+      "images": []
+    },
+    {
       "title": "Ice Cream Web Design",
       "url": "http://gracesuhendra.github.io/mockup/",
       "dates": "2014",
@@ -173,13 +180,6 @@ var projects = {
       "url": "http://gracesuhendra.github.io/resume/",
       "dates": "2014",
       "description": "Develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template.",
-      "images": []
-    },
-    {
-      "title": "Dr. Freeze",
-      "url": "http://github.com/gracesuhendra/drFreeze",
-      "dates": "2014",
-      "description": "Build a website for ice cream cafe using HTML and CSS from scratch.",
       "images": []
     },
     {
