@@ -134,20 +134,6 @@ work.display = function() {
 var projects = {
   "portfolios": [
     {
-      "title": "Monroe County Energy Challenge",
-      "url": "http://gracesuhendra.github.io/moco/",
-      "dates": "2015",
-      "description": "Working with the local government's Representative to organize the content of a website that introduces the energy saving solution.",
-      "images": []
-    },
-    {
-      "title": "The Sanctuary at Browning Farms",
-      "url": "http://thesanctuaryatbrowningfarms.com/",
-      "dates": "2015",
-      "description": "Designing a website that introduces a nonprofit organization for pet adoption.",
-      "images": []
-    },
-    {
       "title": "Explore, Summarize, and Discover Interesting Insights from Diamond and Facebook Datasets Using R.",
       "url": "",
       "dates": "2014",
@@ -156,30 +142,16 @@ var projects = {
     },
     {
       "title": "Social Network Structure using Python",
-      "url": "http://github.com/gracesuhendra/Udacity/tree/master/Intro-to-CS-course",
+      "url": "https://github.com/gracesuhendra/Udacity/blob/master/Intro-to-CS-course/SocialNetwork.py",
       "dates": "2014",
       "description": "Build a structure for social network using dictionary data structure in Python.",
       "images": []
     },
     {
-      "title": "Ice Cream Web Design",
-      "url": "http://gracesuhendra.github.io/mockup/",
+      "title": "Search Engine in Python",
+      "url": "https://github.com/gracesuhendra/search_engine/blob/master/searchengine.py",
       "dates": "2014",
-      "description": "Take a mockup design in PDF and build my customize design to that mockup using Bootstrap Framework and customized CSS.",
-      "images": []
-    },
-    {
-      "title": "Grace Ng's Resume",
-      "url": "http://gracesuhendra.github.io/resume/",
-      "dates": "2014",
-      "description": "Develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template.",
-      "images": []
-    },
-    {
-      "title": "Dr. Freeze",
-      "url": "http://github.com/gracesuhendra/drFreeze",
-      "dates": "2014",
-      "description": "Build a website for ice cream cafe using HTML and CSS from scratch.",
+      "description": "Build a search engine by learning about and producing key search engine components including a crawler, an index and a page rank algorithm.",
       "images": []
     },
     {
@@ -196,6 +168,34 @@ var projects = {
       "description": "In my mathematical modeling class, me and my group studied the Brazilian Nut Effect, which is a phenomenon where granular material subjected to shaking or vibration will exhibit circulation patterns similar to types of fluid convection. The largest particles will end up on the surface of a granular material containing a mixture of variously sized objects; this derives from the example of a typical container of mixed nuts, where the largest will be Brazil nuts.",
       "images": []
     },
+    {
+      "title": "Monroe County Energy Challenge",
+      "url": "http://gracesuhendra.github.io/moco/",
+      "dates": "2015",
+      "description": "Working with the local government's Representative to organize the content of a website that introduces the energy saving solution.",
+      "images": []
+    },
+    {
+      "title": "The Sanctuary at Browning Farms",
+      "url": "http://thesanctuaryatbrowningfarms.com/",
+      "dates": "2015",
+      "description": "Designing a website that introduces a nonprofit organization for pet adoption.",
+      "images": []
+    },
+    {
+      "title": "Ice Cream Web Design",
+      "url": "http://gracesuhendra.github.io/mockup/",
+      "dates": "2014",
+      "description": "Take a mockup design in PDF and build my customize design to that mockup using Bootstrap Framework and customized CSS.",
+      "images": []
+    },
+    {
+      "title": "Grace Ng's Resume",
+      "url": "http://gracesuhendra.github.io/resume/",
+      "dates": "2014",
+      "description": "Develop an interactive resume application that reads your resume content from a JSON file and dynamically displays that content within a provided template.",
+      "images": []
+    },   
     {
       "title": "Binus University Bazaar",
       "url": "",
